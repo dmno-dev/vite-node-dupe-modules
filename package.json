@@ -1,0 +1,25 @@
+{
+  "name": "vite-node-dupe-load",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "node dist/cli.js",
+    "dev": "tsup --watch",
+    "build-and-test": "vite-node src/cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-node": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  }
+}
